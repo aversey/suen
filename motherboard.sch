@@ -439,17 +439,6 @@ Wire Wire Line
 	1000 4700 1000 4650
 Wire Wire Line
 	950  4700 1000 4700
-$Comp
-L 74xx:74LS04 U7
-U 6 1 64358DD9
-P 20800 5650
-F 0 "U7" H 20800 5967 50  0000 C CNN
-F 1 "74LS04" H 20800 5876 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20800 5650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 20800 5650 50  0001 C CNN
-	6    20800 5650
-	1    0    0    -1  
-$EndComp
 Text GLabel 11950 8650 0    50   Input ~ 0
 ~LDS
 Text GLabel 13700 8650 2    50   Output ~ 0
@@ -485,54 +474,10 @@ Text GLabel 13000 6450 2    50   Output ~ 0
 ~ROM_ADDR
 Text GLabel 12400 8750 0    50   Input ~ 0
 ~MEM_SEL
-$Comp
-L 74xx:74LS04 U7
-U 5 1 64357BB0
-P 13400 9250
-F 0 "U7" H 13400 9567 50  0000 C CNN
-F 1 "74LS04" H 13400 9476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 9250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13400 9250 50  0001 C CNN
-	5    13400 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS04 U7
-U 4 1 64356CDB
-P 13400 8650
-F 0 "U7" H 13400 8967 50  0000 C CNN
-F 1 "74LS04" H 13400 8876 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 8650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13400 8650 50  0001 C CNN
-	4    13400 8650
-	1    0    0    -1  
-$EndComp
 Text GLabel 12400 6350 0    50   Input ~ 0
 RESV_ADDR
 Text GLabel 12400 6550 0    50   Input ~ 0
 HROM_ADDR
-$Comp
-L 74xx:74LS27 U13
-U 2 1 6304F463
-P 12700 8650
-F 0 "U13" H 12700 8975 50  0000 C CNN
-F 1 "74LS27" H 12700 8884 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 8650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 8650 50  0001 C CNN
-	2    12700 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS27 U13
-U 3 1 5F706348
-P 12700 9250
-F 0 "U13" H 12700 9575 50  0000 C CNN
-F 1 "74LS27" H 12700 9484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 9250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 9250 50  0001 C CNN
-	3    12700 9250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13800 3050 13700 3050
 Wire Wire Line
@@ -541,43 +486,10 @@ Wire Wire Line
 	13700 4700 13800 4700
 Text GLabel 12400 4250 0    50   Input ~ 0
 A11
-$Comp
-L 74xx:74LS10 U9
-U 3 1 5F7BA87C
-P 12700 8000
-F 0 "U9" H 12700 8325 50  0000 C CNN
-F 1 "74LS10" H 12700 8234 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 8000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 8000 50  0001 C CNN
-	3    12700 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS27 U13
-U 1 1 5F4CEEBC
-P 14100 4700
-F 0 "U13" H 14100 5025 50  0000 C CNN
-F 1 "74LS27" H 14100 4934 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 14100 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 14100 4700 50  0001 C CNN
-	1    14100 4700
-	1    0    0    -1  
-$EndComp
 Text GLabel 12400 5900 0    50   Input ~ 0
 A3
 Text GLabel 12400 5700 0    50   Input ~ 0
 A4
-$Comp
-L 74xx:74LS10 U9
-U 2 1 5F7B8C74
-P 13400 4700
-F 0 "U9" H 13400 5025 50  0000 C CNN
-F 1 "74LS10" H 13400 4934 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 13400 4700 50  0001 C CNN
-	2    13400 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13100 4600 13100 4150
 Wire Wire Line
@@ -590,39 +502,6 @@ Wire Wire Line
 	13000 4150 13100 4150
 Text GLabel 12400 5350 0    50   Input ~ 0
 A5
-$Comp
-L 74xx:74LS27 U12
-U 1 1 5F5D6585
-P 12700 4150
-F 0 "U12" H 12700 4475 50  0000 C CNN
-F 1 "74LS27" H 12700 4384 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 4150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 4150 50  0001 C CNN
-	1    12700 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS27 U12
-U 2 1 5F5D74AD
-P 12700 4700
-F 0 "U12" H 12700 5025 50  0000 C CNN
-F 1 "74LS27" H 12700 4934 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 4700 50  0001 C CNN
-	2    12700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS27 U12
-U 3 1 5F5D851E
-P 12700 5250
-F 0 "U12" H 12700 5575 50  0000 C CNN
-F 1 "74LS27" H 12700 5484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 5250 50  0001 C CNN
-	3    12700 5250
-	1    0    0    -1  
-$EndComp
 Text GLabel 12400 3700 0    50   Input ~ 0
 A14
 Text GLabel 12400 4050 0    50   Input ~ 0
@@ -649,28 +528,6 @@ Wire Wire Line
 	13100 3600 13100 3150
 Wire Wire Line
 	13000 3600 13100 3600
-$Comp
-L 74xx:74LS27 U11
-U 3 1 5F4D1952
-P 12700 3600
-F 0 "U11" H 12700 3925 50  0000 C CNN
-F 1 "74LS27" H 12700 3834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 3600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 3600 50  0001 C CNN
-	3    12700 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS27 U11
-U 2 1 5F4D08F0
-P 12700 3050
-F 0 "U11" H 12700 3375 50  0000 C CNN
-F 1 "74LS27" H 12700 3284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 3050 50  0001 C CNN
-	2    12700 3050
-	1    0    0    -1  
-$EndComp
 Text GLabel 12400 2400 0    50   Input ~ 0
 A22
 Text GLabel 12400 2500 0    50   Input ~ 0
@@ -687,28 +544,6 @@ Text GLabel 12400 3500 0    50   Input ~ 0
 A16
 Text GLabel 12400 3600 0    50   Input ~ 0
 A15
-$Comp
-L 74xx:74LS27 U11
-U 1 1 5F703EC7
-P 12700 2500
-F 0 "U11" H 12700 2825 50  0000 C CNN
-F 1 "74LS27" H 12700 2734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 2500 50  0001 C CNN
-	1    12700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS10 U9
-U 1 1 5F7B69B2
-P 13400 3050
-F 0 "U9" H 13400 3375 50  0000 C CNN
-F 1 "74LS10" H 13400 3284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 13400 3050 50  0001 C CNN
-	1    13400 3050
-	1    0    0    -1  
-$EndComp
 Text GLabel 12400 1900 0    50   Input ~ 0
 A17
 Text GLabel 12400 1800 0    50   Input ~ 0
@@ -721,45 +556,12 @@ Text GLabel 12400 1250 0    50   Input ~ 0
 A21
 Text GLabel 12400 1150 0    50   Input ~ 0
 A22
-$Comp
-L 74xx:74LS10 U8
-U 3 1 5F2D6CBA
-P 12700 1800
-F 0 "U8" H 12700 2125 50  0000 C CNN
-F 1 "74LS10" H 12700 2034 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 1800 50  0001 C CNN
-	3    12700 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS10 U8
-U 2 1 5F2D42D1
-P 12700 1250
-F 0 "U8" H 12700 1575 50  0000 C CNN
-F 1 "74LS10" H 12700 1484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 1250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 1250 50  0001 C CNN
-	2    12700 1250
-	1    0    0    -1  
-$EndComp
 Text GLabel 14400 4700 2    50   Output ~ 0
 RESV_ADDR
 Text GLabel 16450 1600 2    50   Output ~ 0
 ROM_RQ
 Text GLabel 15850 1500 0    50   Input ~ 0
 ~ROM_SEL_L
-$Comp
-L 74xx:74LS00 U3
-U 2 1 6363DC08
-P 16150 1600
-F 0 "U3" H 16150 1925 50  0000 C CNN
-F 1 "74LS00" H 16150 1834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 1600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 16150 1600 50  0001 C CNN
-	2    16150 1600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 19000 5650
 $Comp
 L power:GND #PWR0122
@@ -872,17 +674,6 @@ F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 19200 5650 50 
 	1    19300 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS02 U2
-U 1 1 64124FE7
-P 13400 1500
-F 0 "U2" H 13400 1825 50  0000 C CNN
-F 1 "74LS02" H 13400 1734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 1500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 13400 1500 50  0001 C CNN
-	1    13400 1500
-	1    0    0    -1  
-$EndComp
 Text GLabel 13700 1500 2    50   Output ~ 0
 HROM_ADDR
 Wire Wire Line
@@ -972,28 +763,6 @@ Text GLabel 4850 6600 0    50   Input ~ 0
 FC2
 Text GLabel 4850 5900 0    50   Input ~ 0
 ~AS
-$Comp
-L 74xx:74LS04 U7
-U 2 1 64354B0B
-P 5150 5900
-F 0 "U7" H 5150 6217 50  0000 C CNN
-F 1 "74LS04" H 5150 6126 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 5900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5150 5900 50  0001 C CNN
-	2    5150 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U3
-U 1 1 5F427000
-P 5850 6000
-F 0 "U3" H 5850 6325 50  0000 C CNN
-F 1 "74LS00" H 5850 6234 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5850 6000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5850 6000 50  0001 C CNN
-	1    5850 6000
-	1    0    0    -1  
-$EndComp
 Text GLabel 6150 6000 2    50   Output ~ 0
 ~VADDR
 Wire Wire Line
@@ -1007,30 +776,8 @@ Wire Wire Line
 Connection ~ 5500 6500
 Wire Wire Line
 	5500 6500 6150 6500
-$Comp
-L 74xx:74LS10 U8
-U 1 1 5F2C648B
-P 5150 6500
-F 0 "U8" H 5150 6825 50  0000 C CNN
-F 1 "74LS10" H 5150 6734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 6500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 5150 6500 50  0001 C CNN
-	1    5150 6500
-	1    0    0    -1  
-$EndComp
 Text GLabel 6150 6500 2    50   Output ~ 0
 ~VPA
-$Comp
-L 74xx:74LS04 U7
-U 3 1 643560B9
-P 16250 8200
-F 0 "U7" H 16250 8517 50  0000 C CNN
-F 1 "74LS04" H 16250 8426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16250 8200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16250 8200 50  0001 C CNN
-	3    16250 8200
-	1    0    0    -1  
-$EndComp
 Text GLabel 15950 8200 0    50   Input ~ 0
 ROM_DTACK
 Text GLabel 16550 8200 2    50   Output ~ 0
@@ -1047,32 +794,10 @@ F 3 "" H 9400 1450 50  0001 C CNN
 	1    9400 1450
 	0    1    1    0   
 $EndComp
-$Comp
-L 74xx:74LS02 U2
-U 2 1 641270AD
-P 12700 6450
-F 0 "U2" H 12700 6775 50  0000 C CNN
-F 1 "74LS02" H 12700 6684 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 6450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 12700 6450 50  0001 C CNN
-	2    12700 6450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13000 5800 13800 5800
 Wire Wire Line
 	13800 5800 13800 4800
-$Comp
-L 74xx:74LS02 U2
-U 3 1 6412A2F4
-P 13500 7100
-F 0 "U2" H 13500 7425 50  0000 C CNN
-F 1 "74LS02" H 13500 7334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13500 7100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 13500 7100 50  0001 C CNN
-	3    13500 7100
-	1    0    0    -1  
-$EndComp
 Text GLabel 13800 7100 2    50   Output ~ 0
 MEM_SEL
 Text GLabel 12400 7200 0    50   Input ~ 0
@@ -1912,43 +1637,10 @@ Wire Wire Line
 	4200 13150 4400 13150
 Wire Wire Line
 	4200 12250 4400 12250
-$Comp
-L 74xx:74LS32 U4
-U 3 1 60BDAB95
-P 12700 5800
-F 0 "U4" H 12700 6125 50  0000 C CNN
-F 1 "74LS32" H 12700 6034 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 5800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 12700 5800 50  0001 C CNN
-	3    12700 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U4
-U 4 1 60BDCF28
-P 12700 7100
-F 0 "U4" H 12700 7425 50  0000 C CNN
-F 1 "74LS32" H 12700 7334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 7100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 12700 7100 50  0001 C CNN
-	4    12700 7100
-	1    0    0    -1  
-$EndComp
 Text GLabel 7550 6200 0    50   Input ~ 0
 R\~W
 Text GLabel 8150 6200 2    50   Output ~ 0
 ~R~\W
-$Comp
-L 74xx:74LS04 U7
-U 1 1 643505DF
-P 7850 6200
-F 0 "U7" H 7850 6517 50  0000 C CNN
-F 1 "74LS04" H 7850 6426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7850 6200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7850 6200 50  0001 C CNN
-	1    7850 6200
-	1    0    0    -1  
-$EndComp
 Text GLabel 4850 9500 0    50   Input ~ 0
 ~ROM_SEL_L
 Text GLabel 4350 9400 0    50   Input ~ 0
@@ -2045,28 +1737,6 @@ F 1 "28C256" H 5250 9790 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 5250 8600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 5250 8600 50  0001 C CNN
 	1    5250 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U4
-U 1 1 60BD5862
-P 9700 5900
-F 0 "U4" H 9700 6225 50  0000 C CNN
-F 1 "74LS32" H 9700 6134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9700 5900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9700 5900 50  0001 C CNN
-	1    9700 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U4
-U 2 1 60BD8384
-P 9700 6500
-F 0 "U4" H 9700 6825 50  0000 C CNN
-F 1 "74LS32" H 9700 6734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9700 6500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9700 6500 50  0001 C CNN
-	2    9700 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2166,94 +1836,6 @@ Text GLabel 15850 3450 0    50   Input ~ 0
 ~DEV5_SEL
 Text GLabel 15850 3250 0    50   Input ~ 0
 ~DEV4_SEL
-$Comp
-L 74xx:74LS08 U19
-U 4 1 5FBD319F
-P 17550 3050
-F 0 "U19" H 17550 3375 50  0000 C CNN
-F 1 "74LS08" H 17550 3284 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 17550 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17550 3050 50  0001 C CNN
-	4    17550 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U19
-U 3 1 5FBD1311
-P 16850 3600
-F 0 "U19" H 16850 3925 50  0000 C CNN
-F 1 "74LS08" H 16850 3834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 3600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 3600 50  0001 C CNN
-	3    16850 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U18
-U 2 1 5FBCEACA
-P 16150 3900
-F 0 "U18" H 16150 4225 50  0000 C CNN
-F 1 "74LS08" H 16150 4134 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 3900 50  0001 C CNN
-	2    16150 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U18
-U 1 1 5FBCBD84
-P 16150 3350
-F 0 "U18" H 16150 3675 50  0000 C CNN
-F 1 "74LS08" H 16150 3584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 3350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 3350 50  0001 C CNN
-	1    16150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U17
-U 1 1 5F6751B9
-P 16150 2250
-F 0 "U17" H 16150 2575 50  0000 C CNN
-F 1 "74LS08" H 16150 2484 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 2250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 2250 50  0001 C CNN
-	1    16150 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U17
-U 2 1 5F67C503
-P 16150 2800
-F 0 "U17" H 16150 3125 50  0000 C CNN
-F 1 "74LS08" H 16150 3034 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 2800 50  0001 C CNN
-	2    16150 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U18
-U 3 1 5F67D02D
-P 16850 2500
-F 0 "U18" H 16850 2825 50  0000 C CNN
-F 1 "74LS08" H 16850 2734 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 2500 50  0001 C CNN
-	3    16850 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U17
-U 4 1 5F67E2CE
-P 16150 4450
-F 0 "U17" H 16150 4775 50  0000 C CNN
-F 1 "74LS08" H 16150 4684 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 4450 50  0001 C CNN
-	4    16150 4450
-	1    0    0    -1  
-$EndComp
 Text GLabel 15850 4550 0    50   Input ~ 0
 ~RAM_DTACK
 Text GLabel 15850 2150 0    50   Input ~ 0
@@ -2264,17 +1846,6 @@ Text GLabel 15850 2700 0    50   Input ~ 0
 ~DEV2_DTACK
 Text GLabel 15850 2900 0    50   Input ~ 0
 ~DEV3_DTACK
-$Comp
-L 74xx:74LS08 U19
-U 1 1 5FAC1F78
-P 18250 3600
-F 0 "U19" H 18250 3925 50  0000 C CNN
-F 1 "74LS08" H 18250 3834 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 18250 3600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 18250 3600 50  0001 C CNN
-	1    18250 3600
-	1    0    0    -1  
-$EndComp
 Text GLabel 18550 3600 2    50   Output ~ 0
 ~DTACK
 Text GLabel 15850 4350 0    50   Input ~ 0
@@ -2287,39 +1858,6 @@ Wire Wire Line
 	16550 2250 16550 2400
 Wire Wire Line
 	16450 2250 16550 2250
-$Comp
-L 74xx:74LS08 U19
-U 2 1 5FAC3E75
-P 16150 5100
-F 0 "U19" H 16150 5425 50  0000 C CNN
-F 1 "74LS08" H 16150 5334 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 5100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 5100 50  0001 C CNN
-	2    16150 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U17
-U 3 1 5FAC5882
-P 16150 5650
-F 0 "U17" H 16150 5975 50  0000 C CNN
-F 1 "74LS08" H 16150 5884 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 5650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 5650 50  0001 C CNN
-	3    16150 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS08 U18
-U 4 1 5FAC7650
-P 16850 5350
-F 0 "U18" H 16850 5675 50  0000 C CNN
-F 1 "74LS08" H 16850 5584 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 5350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 5350 50  0001 C CNN
-	4    16850 5350
-	1    0    0    -1  
-$EndComp
 Text GLabel 15850 5000 0    50   Input ~ 0
 ~DEV0_IRQ
 Text GLabel 15850 5200 0    50   Input ~ 0
@@ -2363,7 +1901,7 @@ L 74xx:74LS138 U23
 U 1 1 5FF30782
 P 9700 8000
 F 0 "U23" H 9700 8781 50  0000 C CNN
-F 1 "74LS138" H 9700 8690 50  0000 C CNN
+F 1 "74HC138" H 9700 8690 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 9700 8000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS138" H 9700 8000 50  0001 C CNN
 	1    9700 8000
@@ -2561,94 +2099,6 @@ F 3 "~" H 21400 13700 50  0001 C CNN
 	1    21400 13700
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS245 U5
-U 1 1 5F549BD8
-P 4450 1650
-F 0 "U5" H 4450 2631 50  0000 C CNN
-F 1 "74LS245" H 4450 2540 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4450 1650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4450 1650 50  0001 C CNN
-	1    4450 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U14
-U 1 1 5F55E7F0
-P 6200 1650
-F 0 "U14" H 6200 2631 50  0000 C CNN
-F 1 "74LS245" H 6200 2540 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6200 1650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 6200 1650 50  0001 C CNN
-	1    6200 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U20
-U 1 1 5F55EE3D
-P 8000 1650
-F 0 "U20" H 8000 2631 50  0000 C CNN
-F 1 "74LS245" H 8000 2540 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8000 1650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8000 1650 50  0001 C CNN
-	1    8000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U24
-U 1 1 5F561142
-P 10250 1650
-F 0 "U24" H 10250 2631 50  0000 C CNN
-F 1 "74LS245" H 10250 2540 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10250 1650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10250 1650 50  0001 C CNN
-	1    10250 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U6
-U 1 1 5F563258
-P 4450 3900
-F 0 "U6" H 4450 4881 50  0000 C CNN
-F 1 "74LS245" H 4450 4790 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4450 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4450 3900 50  0001 C CNN
-	1    4450 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U15
-U 1 1 5F567FE9
-P 6300 3900
-F 0 "U15" H 6300 4881 50  0000 C CNN
-F 1 "74LS245" H 6300 4790 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6300 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 6300 3900 50  0001 C CNN
-	1    6300 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U21
-U 1 1 5F568CC7
-P 8200 3900
-F 0 "U21" H 8200 4881 50  0000 C CNN
-F 1 "74LS245" H 8200 4790 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8200 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8200 3900 50  0001 C CNN
-	1    8200 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS245 U25
-U 1 1 5F569753
-P 10250 3900
-F 0 "U25" H 10250 4881 50  0000 C CNN
-F 1 "74LS245" H 10250 4790 50  0000 C CNN
-F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10250 3900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10250 3900 50  0001 C CNN
-	1    10250 3900
-	1    0    0    -1  
-$EndComp
 Text GLabel 3950 3400 0    50   BiDi ~ 0
 D0
 Text GLabel 4950 4100 2    50   BiDi ~ 0
@@ -2795,17 +2245,6 @@ F 3 "" H 3950 4300 50  0001 C CNN
 $EndComp
 Text GLabel 8500 1850 2    50   Output ~ 0
 A16
-$Comp
-L 74xx:74LS00 U3
-U 4 1 636410EA
-P 20100 12000
-F 0 "U3" H 20100 12325 50  0000 C CNN
-F 1 "74LS00" H 20100 12234 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20100 12000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 20100 12000 50  0001 C CNN
-	4    20100 12000
-	1    0    0    -1  
-$EndComp
 Connection ~ 21050 11600
 Wire Wire Line
 	21050 12000 21150 12000
@@ -2950,50 +2389,6 @@ Wire Wire Line
 	20450 11600 21050 11600
 Connection ~ 20450 11600
 $Comp
-L 74xx:74LS05 U22
-U 4 1 5F775E36
-P 21450 12000
-F 0 "U22" H 21450 12317 50  0000 C CNN
-F 1 "74LS05" H 21450 12226 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 12000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 12000 50  0001 C CNN
-	4    21450 12000
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS05 U22
-U 3 1 5F775113
-P 21450 11200
-F 0 "U22" H 21450 11517 50  0000 C CNN
-F 1 "74LS05" H 21450 11426 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 11200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 11200 50  0001 C CNN
-	3    21450 11200
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS05 U22
-U 2 1 5F772EBF
-P 21450 9150
-F 0 "U22" H 21450 9467 50  0000 C CNN
-F 1 "74LS05" H 21450 9376 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 9150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 9150 50  0001 C CNN
-	2    21450 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS05 U22
-U 1 1 5F7703E3
-P 21450 8550
-F 0 "U22" H 21450 8867 50  0000 C CNN
-F 1 "74LS05" H 21450 8776 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 8550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 8550 50  0001 C CNN
-	1    21450 8550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR0124
 U 1 1 5F800DF5
 P 19500 12500
@@ -3105,17 +2500,6 @@ F 1 "LM555" H 19700 9540 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 19700 9050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 19700 9050 50  0001 C CNN
 	1    19700 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS00 U3
-U 3 1 5F429A39
-P 20100 11200
-F 0 "U3" H 20100 11525 50  0000 C CNN
-F 1 "74LS00" H 20100 11434 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20100 11200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 20100 11200 50  0001 C CNN
-	3    20100 11200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3901,17 +3285,6 @@ F 3 "" H 7100 15650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS08 U19
-U 5 1 5FBDA791
-P 7600 15650
-F 0 "U19" V 7233 15650 50  0000 C CNN
-F 1 "74LS08" V 7324 15650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 15650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 15650 50  0001 C CNN
-	5    7600 15650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR067
 U 1 1 5F4613A4
 P 7100 14250
@@ -4044,83 +3417,6 @@ F 3 "" H 3950 15650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS08 U18
-U 5 1 5FAC93BA
-P 7600 14950
-F 0 "U18" V 7233 14950 50  0000 C CNN
-F 1 "74LS08" V 7324 14950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 14950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 14950 50  0001 C CNN
-	5    7600 14950
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS08 U17
-U 5 1 5F67F21E
-P 7600 14250
-F 0 "U17" V 7233 14250 50  0000 C CNN
-F 1 "74LS08" V 7324 14250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 14250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 14250 50  0001 C CNN
-	5    7600 14250
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS27 U13
-U 4 1 5F4D3553
-P 6050 15650
-F 0 "U13" V 5683 15650 50  0000 C CNN
-F 1 "74LS27" V 5774 15650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 15650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 15650 50  0001 C CNN
-	4    6050 15650
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS27 U11
-U 4 1 5F5DBB0A
-P 6050 14250
-F 0 "U11" V 5683 14250 50  0000 C CNN
-F 1 "74LS27" V 5774 14250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 14250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 14250 50  0001 C CNN
-	4    6050 14250
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS10 U9
-U 4 1 5F7BC29B
-P 4450 15650
-F 0 "U9" V 4083 15650 50  0000 C CNN
-F 1 "74LS10" V 4174 15650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 15650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4450 15650 50  0001 C CNN
-	4    4450 15650
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS27 U12
-U 4 1 6004810D
-P 6050 14950
-F 0 "U12" V 5683 14950 50  0000 C CNN
-F 1 "74LS27" V 5774 14950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 14950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 14950 50  0001 C CNN
-	4    6050 14950
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS10 U8
-U 4 1 5F2D9185
-P 4450 14950
-F 0 "U8" V 4083 14950 50  0000 C CNN
-F 1 "74LS10" V 4174 14950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 14950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4450 14950 50  0001 C CNN
-	4    4450 14950
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR033
 U 1 1 5F30A8CF
 P 3950 14950
@@ -4140,17 +3436,6 @@ F 1 "VCC" H 4967 15123 50  0000 C CNN
 F 2 "" H 4950 14950 50  0001 C CNN
 F 3 "" H 4950 14950 50  0001 C CNN
 	1    4950 14950
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS04 U7
-U 7 1 6435A0A6
-P 4450 14250
-F 0 "U7" V 4083 14250 50  0000 C CNN
-F 1 "74LS04" V 4174 14250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 14250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4450 14250 50  0001 C CNN
-	7    4450 14250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -4187,17 +3472,6 @@ F 3 "" H 10000 14250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS05 U22
-U 7 1 5F77A749
-P 9500 14250
-F 0 "U22" V 9133 14250 50  0000 C CNN
-F 1 "74LS05" V 9224 14250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" V 9225 14250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9500 14250 50  0001 C CNN
-	7    9500 14250
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR086
 U 1 1 61EE5A19
 P 9000 14250
@@ -4210,39 +3484,6 @@ F 3 "" H 9000 14250 50  0001 C CNN
 $EndComp
 NoConn ~ 9400 15450
 NoConn ~ 9400 14950
-$Comp
-L 74xx:74LS05 U22
-U 5 1 5F778F78
-P 9100 14950
-F 0 "U22" H 9100 15267 50  0000 C CNN
-F 1 "74LS05" H 9100 15176 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9100 14950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9100 14950 50  0001 C CNN
-	5    9100 14950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS05 U22
-U 6 1 5F779B23
-P 9100 15450
-F 0 "U22" H 9100 15767 50  0000 C CNN
-F 1 "74LS05" H 9100 15676 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9100 15450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9100 15450 50  0001 C CNN
-	6    9100 15450
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS02 U2
-U 4 1 6412DF32
-P 10100 15200
-F 0 "U2" H 10100 15525 50  0000 C CNN
-F 1 "74LS02" H 10100 15434 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10100 15200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10100 15200 50  0001 C CNN
-	4    10100 15200
-	1    0    0    -1  
-$EndComp
 NoConn ~ 10400 15200
 $Comp
 L power:GND #PWR095
@@ -4311,17 +3552,6 @@ F 3 "" H 2350 14950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74xx:74LS00 U3
-U 5 1 5F43B325
-P 2850 14950
-F 0 "U3" V 2483 14950 50  0000 C CNN
-F 1 "74LS00" V 2574 14950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 14950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2850 14950 50  0001 C CNN
-	5    2850 14950
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VCC #PWR025
 U 1 1 640FD7E6
 P 3350 14250
@@ -4341,28 +3571,6 @@ F 1 "GND" H 2355 14077 50  0000 C CNN
 F 2 "" H 2350 14250 50  0001 C CNN
 F 3 "" H 2350 14250 50  0001 C CNN
 	1    2350 14250
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS02 U2
-U 5 1 640FC316
-P 2850 14250
-F 0 "U2" V 2483 14250 50  0000 C CNN
-F 1 "74LS02" V 2574 14250 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 14250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2850 14250 50  0001 C CNN
-	5    2850 14250
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS32 U4
-U 5 1 60BDF9FC
-P 2850 15650
-F 0 "U4" V 2483 15650 50  0000 C CNN
-F 1 "74LS32" V 2574 15650 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 15650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 15650 50  0001 C CNN
-	5    2850 15650
 	0    1    1    0   
 $EndComp
 $Comp
@@ -5104,6 +4312,798 @@ F 1 "28C256" H 7050 9790 50  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 7050 8600 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf" H 7050 8600 50  0001 C CNN
 	1    7050 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U2
+U 5 1 640FC316
+P 2850 14250
+F 0 "U2" V 2483 14250 50  0000 C CNN
+F 1 "74HC02" V 2574 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 2850 14250 50  0001 C CNN
+	5    2850 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS02 U2
+U 1 1 64124FE7
+P 13400 1500
+F 0 "U2" H 13400 1825 50  0000 C CNN
+F 1 "74HC02" H 13400 1734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 1500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 13400 1500 50  0001 C CNN
+	1    13400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U2
+U 2 1 641270AD
+P 12700 6450
+F 0 "U2" H 12700 6775 50  0000 C CNN
+F 1 "74HC02" H 12700 6684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 12700 6450 50  0001 C CNN
+	2    12700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U2
+U 3 1 6412A2F4
+P 13500 7100
+F 0 "U2" H 13500 7425 50  0000 C CNN
+F 1 "74HC02" H 13500 7334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13500 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 13500 7100 50  0001 C CNN
+	3    13500 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U2
+U 4 1 6412DF32
+P 10100 15200
+F 0 "U2" H 10100 15525 50  0000 C CNN
+F 1 "74HC02" H 10100 15434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 10100 15200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 10100 15200 50  0001 C CNN
+	4    10100 15200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 5 1 5F43B325
+P 2850 14950
+F 0 "U3" V 2483 14950 50  0000 C CNN
+F 1 "74HC00" V 2574 14950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2850 14950 50  0001 C CNN
+	5    2850 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 2 1 6363DC08
+P 16150 1600
+F 0 "U3" H 16150 1925 50  0000 C CNN
+F 1 "74HC00" H 16150 1834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 16150 1600 50  0001 C CNN
+	2    16150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 1 1 5F427000
+P 5850 6000
+F 0 "U3" H 5850 6325 50  0000 C CNN
+F 1 "74HC00" H 5850 6234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5850 6000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5850 6000 50  0001 C CNN
+	1    5850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 4 1 636410EA
+P 20100 12000
+F 0 "U3" H 20100 12325 50  0000 C CNN
+F 1 "74HC00" H 20100 12234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20100 12000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 20100 12000 50  0001 C CNN
+	4    20100 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U3
+U 3 1 5F429A39
+P 20100 11200
+F 0 "U3" H 20100 11525 50  0000 C CNN
+F 1 "74HC00" H 20100 11434 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20100 11200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 20100 11200 50  0001 C CNN
+	3    20100 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U4
+U 5 1 60BDF9FC
+P 2850 15650
+F 0 "U4" V 2483 15650 50  0000 C CNN
+F 1 "74HC32" V 2574 15650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2850 15650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 2850 15650 50  0001 C CNN
+	5    2850 15650
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS32 U4
+U 3 1 60BDAB95
+P 12700 5800
+F 0 "U4" H 12700 6125 50  0000 C CNN
+F 1 "74HC32" H 12700 6034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 12700 5800 50  0001 C CNN
+	3    12700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U4
+U 4 1 60BDCF28
+P 12700 7100
+F 0 "U4" H 12700 7425 50  0000 C CNN
+F 1 "74HC32" H 12700 7334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 7100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 12700 7100 50  0001 C CNN
+	4    12700 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U4
+U 1 1 60BD5862
+P 9700 5900
+F 0 "U4" H 9700 6225 50  0000 C CNN
+F 1 "74HC32" H 9700 6134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9700 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9700 5900 50  0001 C CNN
+	1    9700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS32 U4
+U 2 1 60BD8384
+P 9700 6500
+F 0 "U4" H 9700 6825 50  0000 C CNN
+F 1 "74HC32" H 9700 6734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9700 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 9700 6500 50  0001 C CNN
+	2    9700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 7 1 6435A0A6
+P 4450 14250
+F 0 "U7" V 4083 14250 50  0000 C CNN
+F 1 "74HC04" V 4174 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4450 14250 50  0001 C CNN
+	7    4450 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 6 1 64358DD9
+P 20800 5650
+F 0 "U7" H 20800 5967 50  0000 C CNN
+F 1 "74HC04" H 20800 5876 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 20800 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 20800 5650 50  0001 C CNN
+	6    20800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 5 1 64357BB0
+P 13400 9250
+F 0 "U7" H 13400 9567 50  0000 C CNN
+F 1 "74HC04" H 13400 9476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 9250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13400 9250 50  0001 C CNN
+	5    13400 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 4 1 64356CDB
+P 13400 8650
+F 0 "U7" H 13400 8967 50  0000 C CNN
+F 1 "74HC04" H 13400 8876 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 8650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 13400 8650 50  0001 C CNN
+	4    13400 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 2 1 64354B0B
+P 5150 5900
+F 0 "U7" H 5150 6217 50  0000 C CNN
+F 1 "74HC04" H 5150 6126 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 5150 5900 50  0001 C CNN
+	2    5150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 3 1 643560B9
+P 16250 8200
+F 0 "U7" H 16250 8517 50  0000 C CNN
+F 1 "74HC04" H 16250 8426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16250 8200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 16250 8200 50  0001 C CNN
+	3    16250 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U7
+U 1 1 643505DF
+P 7850 6200
+F 0 "U7" H 7850 6517 50  0000 C CNN
+F 1 "74HC04" H 7850 6426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7850 6200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 7850 6200 50  0001 C CNN
+	1    7850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U8
+U 4 1 5F2D9185
+P 4450 14950
+F 0 "U8" V 4083 14950 50  0000 C CNN
+F 1 "74HC10" V 4174 14950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4450 14950 50  0001 C CNN
+	4    4450 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS10 U8
+U 3 1 5F2D6CBA
+P 12700 1800
+F 0 "U8" H 12700 2125 50  0000 C CNN
+F 1 "74HC10" H 12700 2034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 1800 50  0001 C CNN
+	3    12700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U8
+U 2 1 5F2D42D1
+P 12700 1250
+F 0 "U8" H 12700 1575 50  0000 C CNN
+F 1 "74HC10" H 12700 1484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 1250 50  0001 C CNN
+	2    12700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U8
+U 1 1 5F2C648B
+P 5150 6500
+F 0 "U8" H 5150 6825 50  0000 C CNN
+F 1 "74HC10" H 5150 6734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5150 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 5150 6500 50  0001 C CNN
+	1    5150 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U9
+U 4 1 5F7BC29B
+P 4450 15650
+F 0 "U9" V 4083 15650 50  0000 C CNN
+F 1 "74HC10" V 4174 15650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4450 15650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 4450 15650 50  0001 C CNN
+	4    4450 15650
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS10 U9
+U 3 1 5F7BA87C
+P 12700 8000
+F 0 "U9" H 12700 8325 50  0000 C CNN
+F 1 "74HC10" H 12700 8234 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 8000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 12700 8000 50  0001 C CNN
+	3    12700 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U9
+U 2 1 5F7B8C74
+P 13400 4700
+F 0 "U9" H 13400 5025 50  0000 C CNN
+F 1 "74HC10" H 13400 4934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 13400 4700 50  0001 C CNN
+	2    13400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS10 U9
+U 1 1 5F7B69B2
+P 13400 3050
+F 0 "U9" H 13400 3375 50  0000 C CNN
+F 1 "74HC10" H 13400 3284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 13400 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 13400 3050 50  0001 C CNN
+	1    13400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U11
+U 4 1 5F5DBB0A
+P 6050 14250
+F 0 "U11" V 5683 14250 50  0000 C CNN
+F 1 "74HC27" V 5774 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 14250 50  0001 C CNN
+	4    6050 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS27 U11
+U 3 1 5F4D1952
+P 12700 3600
+F 0 "U11" H 12700 3925 50  0000 C CNN
+F 1 "74HC27" H 12700 3834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 3600 50  0001 C CNN
+	3    12700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U11
+U 2 1 5F4D08F0
+P 12700 3050
+F 0 "U11" H 12700 3375 50  0000 C CNN
+F 1 "74HC27" H 12700 3284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 3050 50  0001 C CNN
+	2    12700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U11
+U 1 1 5F703EC7
+P 12700 2500
+F 0 "U11" H 12700 2825 50  0000 C CNN
+F 1 "74HC27" H 12700 2734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 2500 50  0001 C CNN
+	1    12700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U12
+U 4 1 6004810D
+P 6050 14950
+F 0 "U12" V 5683 14950 50  0000 C CNN
+F 1 "74HC27" V 5774 14950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 14950 50  0001 C CNN
+	4    6050 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS27 U12
+U 1 1 5F5D6585
+P 12700 4150
+F 0 "U12" H 12700 4475 50  0000 C CNN
+F 1 "74HC27" H 12700 4384 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 4150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 4150 50  0001 C CNN
+	1    12700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U12
+U 2 1 5F5D74AD
+P 12700 4700
+F 0 "U12" H 12700 5025 50  0000 C CNN
+F 1 "74HC27" H 12700 4934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 4700 50  0001 C CNN
+	2    12700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U12
+U 3 1 5F5D851E
+P 12700 5250
+F 0 "U12" H 12700 5575 50  0000 C CNN
+F 1 "74HC27" H 12700 5484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 5250 50  0001 C CNN
+	3    12700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U13
+U 4 1 5F4D3553
+P 6050 15650
+F 0 "U13" V 5683 15650 50  0000 C CNN
+F 1 "74HC27" V 5774 15650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 6050 15650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6050 15650 50  0001 C CNN
+	4    6050 15650
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS27 U13
+U 2 1 6304F463
+P 12700 8650
+F 0 "U13" H 12700 8975 50  0000 C CNN
+F 1 "74HC27" H 12700 8884 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 8650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 8650 50  0001 C CNN
+	2    12700 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U13
+U 3 1 5F706348
+P 12700 9250
+F 0 "U13" H 12700 9575 50  0000 C CNN
+F 1 "74HC27" H 12700 9484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12700 9250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12700 9250 50  0001 C CNN
+	3    12700 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS27 U13
+U 1 1 5F4CEEBC
+P 14100 4700
+F 0 "U13" H 14100 5025 50  0000 C CNN
+F 1 "74HC27" H 14100 4934 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 14100 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 14100 4700 50  0001 C CNN
+	1    14100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U17
+U 5 1 5F67F21E
+P 7600 14250
+F 0 "U17" V 7233 14250 50  0000 C CNN
+F 1 "74HC08" V 7324 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 14250 50  0001 C CNN
+	5    7600 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U17
+U 1 1 5F6751B9
+P 16150 2250
+F 0 "U17" H 16150 2575 50  0000 C CNN
+F 1 "74HC08" H 16150 2484 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 2250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 2250 50  0001 C CNN
+	1    16150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U17
+U 2 1 5F67C503
+P 16150 2800
+F 0 "U17" H 16150 3125 50  0000 C CNN
+F 1 "74HC08" H 16150 3034 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 2800 50  0001 C CNN
+	2    16150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U17
+U 4 1 5F67E2CE
+P 16150 4450
+F 0 "U17" H 16150 4775 50  0000 C CNN
+F 1 "74HC08" H 16150 4684 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 4450 50  0001 C CNN
+	4    16150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U17
+U 3 1 5FAC5882
+P 16150 5650
+F 0 "U17" H 16150 5975 50  0000 C CNN
+F 1 "74HC08" H 16150 5884 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 5650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 5650 50  0001 C CNN
+	3    16150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U18
+U 5 1 5FAC93BA
+P 7600 14950
+F 0 "U18" V 7233 14950 50  0000 C CNN
+F 1 "74HC08" V 7324 14950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 14950 50  0001 C CNN
+	5    7600 14950
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U18
+U 2 1 5FBCEACA
+P 16150 3900
+F 0 "U18" H 16150 4225 50  0000 C CNN
+F 1 "74HC08" H 16150 4134 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 3900 50  0001 C CNN
+	2    16150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U18
+U 1 1 5FBCBD84
+P 16150 3350
+F 0 "U18" H 16150 3675 50  0000 C CNN
+F 1 "74HC08" H 16150 3584 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 3350 50  0001 C CNN
+	1    16150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U18
+U 3 1 5F67D02D
+P 16850 2500
+F 0 "U18" H 16850 2825 50  0000 C CNN
+F 1 "74HC08" H 16850 2734 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 2500 50  0001 C CNN
+	3    16850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U18
+U 4 1 5FAC7650
+P 16850 5350
+F 0 "U18" H 16850 5675 50  0000 C CNN
+F 1 "74HC08" H 16850 5584 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 5350 50  0001 C CNN
+	4    16850 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U19
+U 5 1 5FBDA791
+P 7600 15650
+F 0 "U19" V 7233 15650 50  0000 C CNN
+F 1 "74HC08" V 7324 15650 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7600 15650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 7600 15650 50  0001 C CNN
+	5    7600 15650
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS08 U19
+U 4 1 5FBD319F
+P 17550 3050
+F 0 "U19" H 17550 3375 50  0000 C CNN
+F 1 "74HC08" H 17550 3284 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 17550 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 17550 3050 50  0001 C CNN
+	4    17550 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U19
+U 3 1 5FBD1311
+P 16850 3600
+F 0 "U19" H 16850 3925 50  0000 C CNN
+F 1 "74HC08" H 16850 3834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16850 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16850 3600 50  0001 C CNN
+	3    16850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U19
+U 1 1 5FAC1F78
+P 18250 3600
+F 0 "U19" H 18250 3925 50  0000 C CNN
+F 1 "74HC08" H 18250 3834 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 18250 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 18250 3600 50  0001 C CNN
+	1    18250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS08 U19
+U 2 1 5FAC3E75
+P 16150 5100
+F 0 "U19" H 16150 5425 50  0000 C CNN
+F 1 "74HC08" H 16150 5334 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 16150 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 16150 5100 50  0001 C CNN
+	2    16150 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 7 1 5F77A749
+P 9500 14250
+F 0 "U22" V 9133 14250 50  0000 C CNN
+F 1 "74HC05" V 9224 14250 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" V 9225 14250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9500 14250 50  0001 C CNN
+	7    9500 14250
+	0    1    1    0   
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 4 1 5F775E36
+P 21450 12000
+F 0 "U22" H 21450 12317 50  0000 C CNN
+F 1 "74HC05" H 21450 12226 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 12000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 12000 50  0001 C CNN
+	4    21450 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 3 1 5F775113
+P 21450 11200
+F 0 "U22" H 21450 11517 50  0000 C CNN
+F 1 "74HC05" H 21450 11426 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 11200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 11200 50  0001 C CNN
+	3    21450 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 2 1 5F772EBF
+P 21450 9150
+F 0 "U22" H 21450 9467 50  0000 C CNN
+F 1 "74HC05" H 21450 9376 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 9150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 9150 50  0001 C CNN
+	2    21450 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 1 1 5F7703E3
+P 21450 8550
+F 0 "U22" H 21450 8867 50  0000 C CNN
+F 1 "74HC05" H 21450 8776 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 21450 8550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 21450 8550 50  0001 C CNN
+	1    21450 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 5 1 5F778F78
+P 9100 14950
+F 0 "U22" H 9100 15267 50  0000 C CNN
+F 1 "74HC05" H 9100 15176 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9100 14950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9100 14950 50  0001 C CNN
+	5    9100 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS05 U22
+U 6 1 5F779B23
+P 9100 15450
+F 0 "U22" H 9100 15767 50  0000 C CNN
+F 1 "74HC05" H 9100 15676 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9100 15450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS05" H 9100 15450 50  0001 C CNN
+	6    9100 15450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U5
+U 1 1 5F549BD8
+P 4450 1650
+F 0 "U5" H 4450 2631 50  0000 C CNN
+F 1 "74HC245" H 4450 2540 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4450 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4450 1650 50  0001 C CNN
+	1    4450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U6
+U 1 1 5F563258
+P 4450 3900
+F 0 "U6" H 4450 4881 50  0000 C CNN
+F 1 "74HC245" H 4450 4790 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 4450 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U14
+U 1 1 5F55E7F0
+P 6200 1650
+F 0 "U14" H 6200 2631 50  0000 C CNN
+F 1 "74HC245" H 6200 2540 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6200 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 6200 1650 50  0001 C CNN
+	1    6200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U15
+U 1 1 5F567FE9
+P 6300 3900
+F 0 "U15" H 6300 4881 50  0000 C CNN
+F 1 "74HC245" H 6300 4790 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 6300 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 6300 3900 50  0001 C CNN
+	1    6300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U20
+U 1 1 5F55EE3D
+P 8000 1650
+F 0 "U20" H 8000 2631 50  0000 C CNN
+F 1 "74HC245" H 8000 2540 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8000 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8000 1650 50  0001 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U21
+U 1 1 5F568CC7
+P 8200 3900
+F 0 "U21" H 8200 4881 50  0000 C CNN
+F 1 "74HC245" H 8200 4790 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 8200 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 8200 3900 50  0001 C CNN
+	1    8200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U24
+U 1 1 5F561142
+P 10250 1650
+F 0 "U24" H 10250 2631 50  0000 C CNN
+F 1 "74HC245" H 10250 2540 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10250 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10250 1650 50  0001 C CNN
+	1    10250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS245 U25
+U 1 1 5F569753
+P 10250 3900
+F 0 "U25" H 10250 4881 50  0000 C CNN
+F 1 "74HC245" H 10250 4790 50  0000 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm_Socket" H 10250 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 10250 3900 50  0001 C CNN
+	1    10250 3900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
