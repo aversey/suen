@@ -2072,17 +2072,6 @@ F 3 "" H 19700 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motherboard-rescue:LM555-Timer U27
-U 1 1 5F41053C
-P 19700 9050
-F 0 "U27" H 19700 9631 50  0000 C CNN
-F 1 "LM555" H 19700 9540 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 19700 9050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 19700 9050 50  0001 C CNN
-	1    19700 9050
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:VCC #PWR073
 U 1 1 5FE911B5
 P 7700 4300
@@ -5210,4 +5199,15 @@ Text Notes 10750 6950 0    100  ~ 20
 BYTE READ
 Text Notes 10500 5000 0    100  ~ 20
 BUS BUFFERS
+$Comp
+L Timer:NE555P U27
+U 1 1 5FFCEDA1
+P 19700 9050
+F 0 "U27" H 19700 9631 50  0000 C CNN
+F 1 "NE555P" H 19700 9540 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 20350 8650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 20550 8650 50  0001 C CNN
+	1    19700 9050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
